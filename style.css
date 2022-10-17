@@ -1,0 +1,179 @@
+body
+{
+	background-color: #404040;
+	font-family:'Lato', sans-serif;
+	color:white;
+}
+
+#container
+{
+	width:1000px;
+	margin-left:auto;
+	margin-right:auto;
+	color:white;
+	}
+#topbar{
+	height: 100px;
+	position: sticky;
+	top:0;
+	background-color:#303030;
+	
+}	
+#menu{
+	
+	float:left;
+	width:900px;
+	text-align:center;
+	
+		 
+}
+.topmenu{
+	float:right;
+	padding:25px;
+	border-left: 2px dotted #444444;
+	color:#ffffff;
+	height: 25px;
+	font-size: 26px;
+	min-width: 100px;
+	color:white;
+	margin-top:12px;
+}
+.topmenu:hover
+{
+	background-color: #000000;
+	cursor: pointer;
+}
+#logo{
+	float:left;
+	width:100px;
+	height: 100px;
+		
+}
+img{
+	width: 100px; 
+}
+
+#content{
+	clear:float;
+	padding-top:100px;
+	padding-left:50px;
+	padding-right:50px;
+}
+.Home{
+	
+}
+.Products{
+	
+}
+.Contact{
+	
+}
+#footer{
+	clear: both;
+	color: white;
+	text-align: center;
+	padding: 20px;
+	font-size: 18px;
+	
+}
+a:link { color:white;text-decoration:none;}
+a:visited { color:white; text-decoration:none;}
+a:link:hover, a:visited:hover { color:white; text-decoration:none;}
+a:active { color:blue; text-decoration:none; }
+
+
+
+
+/* SLIDE GALLERY CSS */
+
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container2 {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container2 {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
